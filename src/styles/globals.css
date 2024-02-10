@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: white;
+  --dark: #0a1214;
+  --green: #49ca21;
+  --yellow: #ed7e00;
+  --orange: #ff5b35;
+  --pink: #fd4680;
+  --background: #f9fafb;
+  --magenta: #c345ff;
+  --purple-100: #e9e9ff;
+  --purple-200: #6565fe;
+  --purple-500: #4c12a1;
+  --blue-100: #f0fdff;
+  --blue-200: #e2f8ff;
+  --blue-300: #0aa6e0;
+  --blue-400: #6565fe;
+  --blue-500: #3b82f6;
+  --blue-600: #60a5fa;
+  --gray-100: #f3f8f8;
+  --gray-200: #dae8e7;
+  --gray-300: #8999b0;
+  --gray-400: #5b706f;
+  --gray-500: #6b7280;
+  --gray-600: #1d2432;
+  --gray-700: #667387;
+  --gray-800: #374151;
+  --gray-900: #111827;
+  --red-500: #dc2626;
+
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  @apply min-w-full;
+}
+
+.wrapper-background {
+  background: var(--background);
+}
+
+.bg-gradient-info {
+  background-image: linear-gradient(195deg, #49a3f1, #1a73e8);
+}
+
+.nav-link {
+  color: #455963;
+}
+
+.nav-link:active {
+  background-color: #4d66731a;
+}
+
+/* .drawer: {
+  max-width: 100% !important;
+} */
+.Drawer {
+  /* @apply w-[600px] !important; */
+  /* width: 800px !important; */
+  background: var(--background);
+  /* fontsize: 1.5rem; */
+  /* font: 400 1.5rem/2rem var(--font-sans); */
+}
+
+@layer components {
+  .main-content {
+    @apply lg:max-w-[50vw] !important;
+  }
+  thead tr th {
+    background: #f4f5f7 !important;
+  }
+}
+

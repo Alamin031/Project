@@ -1,0 +1,12 @@
+export { default as Dashboard } from './Dashboard.svg';
+export { default as Message } from './Message.svg';
+export { default as Queries } from './Queries.svg';
+export { default as Bell } from './Bell.svg';
+export { default as AddUser } from './AddUser.svg';
+export { default as Settings } from './Settings.svg';
+export { default as Logout } from './Logout.svg';
+export { default as Divider } from './Divider.svg';
+export { default as Person } from './Person.svg';
+export { default as Go } from './Go.svg';
+export { default as Correct } from './Correct.svg';
+export { default as Search } from './Search.svg';
