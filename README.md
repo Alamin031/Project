@@ -8,7 +8,7 @@ Open [http://localhost:3000/login]
 
 ## Introduction
 
-Assalamualaikum! This project is a comprehensive application designed with organization and functionality in mind. It incorporates various technologies to provide a seamless user experience. The frontend is built using React, specifically with Next.js, which enables server-side rendering and other powerful features for React applications. It extensively utilizes React hooks such as `useState`, `useEffect`, `useReducer`, `useMemo`, and `useContext` for state management and side effects. Additionally, the project includes advanced features like pagination, reusable drawers, modals, dynamic dashboard, and sidebar.
+Hello! This project is a comprehensive application designed with organization and functionality in mind. It incorporates various technologies to provide a seamless user experience. The frontend is built using React, specifically with Next.js, which enables server-side rendering and other powerful features for React applications. It extensively utilizes React hooks such as `useState`, `useEffect`, `useReducer`, `useMemo`, and `useContext` for state management and side effects. Additionally, the project includes advanced features like pagination, reusable drawers, modals, dynamic dashboard, and sidebar.
 Moreover, it implements additional functionalities including forget password email verification, OTP verification, real-time user search, data fetching with SWR and Axios, and authentication with NextAuth and JWT. Styling is achieved using Tailwind CSS, and toast notifications are handled with react-toastify. On the backend, the project uses NestJS for building efficient, reliable, and scalable server-side applications.
 
 ## Features
