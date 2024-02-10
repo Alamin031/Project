@@ -27,7 +27,7 @@ Moreover, it implements additional functionalities including forget password ema
 
 ## Technologies Used
 
-- React
+- React.js
 - Next.js
 - Axios
 - JWT
